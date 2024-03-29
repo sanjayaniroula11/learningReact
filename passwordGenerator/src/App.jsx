@@ -11,6 +11,7 @@ function App() {
 
 
   const passRef = useRef(null)
+
   const generatePassword = useCallback(() => {
     let pass = ''
     let str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
@@ -42,7 +43,7 @@ function App() {
       <div class="main-div">
         <h1 class="page-heading"> GetPass Password Generator </h1>
         <h2 class="page-heading page-h2">
-          You can generate and save the password according to your preferences.
+          You can generate and copy the password according to your preferences.
         </h2>
 
         <div class="password-box">
