@@ -17,7 +17,7 @@ function App() {
       <h1 className='text-3xl text-black text-center font-bold bg-clip-text'>Click on those buttons below to change the background color.</h1>
       <div className='fixed flex flex-warp justify-center bottom-12 inset-x-0 px-2'>
         <div className='fixed flex flex-warp justify-center gap-3 shadow-lg bg-black px-3 py-2 rounded-2xl'>
-          <button onClick={()=> setColor('red')}
+          <button onClick={()=> setColor('red')} id='sanjaya'
            className='outline-none px-4 py-1 rounded-full shadow-lg bg-red-600 '>Red</button>
 
           <button onClick={()=> setColor('green')}
