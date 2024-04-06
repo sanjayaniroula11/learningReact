@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import User from './components/User/User'
+import Github from './components/Github/Github'
 
 function layout() {
   return (
@@ -13,8 +14,9 @@ function layout() {
    <Header />
    <Outlet />
    <About/>
-   <Contact/>
    <User/>
+   <Github/>
+   <Contact/>
    <Footer />
 
   </>
